@@ -1,0 +1,3725 @@
+{
+  "program": {
+    "type": "string",
+    "body": [
+      {
+        "type": "string",
+        "declaration": {
+          "type": "string",
+          "declarations": [
+            {
+              "type": "string",
+              "id": {
+                "type": "string",
+                "name": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "init": {
+                "type": "string",
+                "value": "number",
+                "raw": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              }
+            }
+          ],
+          "kind": "string",
+          "loc": "object"
+        },
+        "specifiers": "array",
+        "source": "object",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        },
+        "comments": [
+          {
+            "type": "string",
+            "value": "string",
+            "loc": {
+              "start": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "end": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "lines": {
+                "infos": [
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  }
+                ],
+                "mappings": "array",
+                "cachedSourceMap": "object",
+                "cachedTabWidth": "undefined",
+                "length": "number",
+                "name": "object"
+              },
+              "tokens": [
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                }
+              ],
+              "indent": "number"
+            },
+            "leading": "boolean",
+            "trailing": "boolean"
+          }
+        ]
+      },
+      {
+        "type": "string",
+        "declaration": {
+          "type": "string",
+          "declarations": [
+            {
+              "type": "string",
+              "id": {
+                "type": "string",
+                "name": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "init": {
+                "type": "string",
+                "value": "number",
+                "raw": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              }
+            }
+          ],
+          "kind": "string",
+          "loc": "object"
+        },
+        "specifiers": "array",
+        "source": "object",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        }
+      },
+      {
+        "type": "string",
+        "declaration": {
+          "type": "string",
+          "declarations": [
+            {
+              "type": "string",
+              "id": {
+                "type": "string",
+                "name": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "init": {
+                "type": "string",
+                "value": "string",
+                "raw": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              }
+            }
+          ],
+          "kind": "string",
+          "loc": "object"
+        },
+        "specifiers": "array",
+        "source": "object",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        }
+      },
+      {
+        "type": "string",
+        "id": {
+          "type": "string",
+          "name": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "lines": {
+              "infos": [
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                }
+              ],
+              "mappings": "array",
+              "cachedSourceMap": "object",
+              "cachedTabWidth": "undefined",
+              "length": "number",
+              "name": "object"
+            },
+            "tokens": [
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              }
+            ],
+            "indent": "number"
+          }
+        },
+        "params": "array",
+        "body": {
+          "type": "string",
+          "body": [
+            {
+              "type": "string",
+              "expression": {
+                "type": "string",
+                "callee": {
+                  "type": "string",
+                  "computed": "boolean",
+                  "object": {
+                    "type": "string",
+                    "name": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "lines": {
+                        "infos": [
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          }
+                        ],
+                        "mappings": "array",
+                        "cachedSourceMap": "object",
+                        "cachedTabWidth": "undefined",
+                        "length": "number",
+                        "name": "object"
+                      },
+                      "tokens": [
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        }
+                      ],
+                      "indent": "number"
+                    }
+                  },
+                  "property": {
+                    "type": "string",
+                    "name": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "lines": {
+                        "infos": [
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          }
+                        ],
+                        "mappings": "array",
+                        "cachedSourceMap": "object",
+                        "cachedTabWidth": "undefined",
+                        "length": "number",
+                        "name": "object"
+                      },
+                      "tokens": [
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        }
+                      ],
+                      "indent": "number"
+                    }
+                  },
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    },
+                    "lines": {
+                      "infos": [
+                        {
+                          "line": "string",
+                          "indent": "number",
+                          "locked": "boolean",
+                          "sliceStart": "number",
+                          "sliceEnd": "number"
+                        },
+                        {
+                          "line": "string",
+                          "indent": "number",
+                          "locked": "boolean",
+                          "sliceStart": "number",
+                          "sliceEnd": "number"
+                        },
+                        {
+                          "line": "string",
+                          "indent": "number",
+                          "locked": "boolean",
+                          "sliceStart": "number",
+                          "sliceEnd": "number"
+                        },
+                        {
+                          "line": "string",
+                          "indent": "number",
+                          "locked": "boolean",
+                          "sliceStart": "number",
+                          "sliceEnd": "number"
+                        },
+                        {
+                          "line": "string",
+                          "indent": "number",
+                          "locked": "boolean",
+                          "sliceStart": "number",
+                          "sliceEnd": "number"
+                        }
+                      ],
+                      "mappings": "array",
+                      "cachedSourceMap": "object",
+                      "cachedTabWidth": "undefined",
+                      "length": "number",
+                      "name": "object"
+                    },
+                    "tokens": [
+                      {
+                        "type": "string",
+                        "value": "string",
+                        "loc": {
+                          "start": {
+                            "line": "number",
+                            "column": "number"
+                          },
+                          "end": {
+                            "line": "number",
+                            "column": "number"
+                          }
+                        }
+                      },
+                      {
+                        "type": "string",
+                        "value": "string",
+                        "loc": {
+                          "start": {
+                            "line": "number",
+                            "column": "number"
+                          },
+                          "end": {
+                            "line": "number",
+                            "column": "number"
+                          }
+                        }
+                      },
+                      {
+                        "type": "string",
+                        "value": "string",
+                        "loc": {
+                          "start": {
+                            "line": "number",
+                            "column": "number"
+                          },
+                          "end": {
+                            "line": "number",
+                            "column": "number"
+                          }
+                        }
+                      },
+                      {
+                        "type": "string",
+                        "value": "string",
+                        "loc": {
+                          "start": {
+                            "line": "number",
+                            "column": "number"
+                          },
+                          "end": {
+                            "line": "number",
+                            "column": "number"
+                          }
+                        }
+                      },
+                      {
+                        "type": "string",
+                        "value": "string",
+                        "loc": {
+                          "start": {
+                            "line": "number",
+                            "column": "number"
+                          },
+                          "end": {
+                            "line": "number",
+                            "column": "number"
+                          }
+                        }
+                      }
+                    ],
+                    "indent": "number"
+                  }
+                },
+                "arguments": [
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "raw": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "lines": {
+                        "infos": [
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          }
+                        ],
+                        "mappings": "array",
+                        "cachedSourceMap": "object",
+                        "cachedTabWidth": "undefined",
+                        "length": "number",
+                        "name": "object"
+                      },
+                      "tokens": [
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        }
+                      ],
+                      "indent": "number"
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "name": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "lines": {
+                        "infos": [
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          }
+                        ],
+                        "mappings": "array",
+                        "cachedSourceMap": "object",
+                        "cachedTabWidth": "undefined",
+                        "length": "number",
+                        "name": "object"
+                      },
+                      "tokens": [
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        }
+                      ],
+                      "indent": "number"
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "name": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "lines": {
+                        "infos": [
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          },
+                          {
+                            "line": "string",
+                            "indent": "number",
+                            "locked": "boolean",
+                            "sliceStart": "number",
+                            "sliceEnd": "number"
+                          }
+                        ],
+                        "mappings": "array",
+                        "cachedSourceMap": "object",
+                        "cachedTabWidth": "undefined",
+                        "length": "number",
+                        "name": "object"
+                      },
+                      "tokens": [
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "string",
+                          "value": "string",
+                          "loc": {
+                            "start": {
+                              "line": "number",
+                              "column": "number"
+                            },
+                            "end": {
+                              "line": "number",
+                              "column": "number"
+                            }
+                          }
+                        }
+                      ],
+                      "indent": "number"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": "string",
+                      "value": "string",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                }
+              },
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": "string",
+                    "value": "string",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "lines": {
+              "infos": [
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                },
+                {
+                  "line": "string",
+                  "indent": "number",
+                  "locked": "boolean",
+                  "sliceStart": "number",
+                  "sliceEnd": "number"
+                }
+              ],
+              "mappings": "array",
+              "cachedSourceMap": "object",
+              "cachedTabWidth": "undefined",
+              "length": "number",
+              "name": "object"
+            },
+            "tokens": [
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              },
+              {
+                "type": "string",
+                "value": "string",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number"
+                  }
+                }
+              }
+            ],
+            "indent": "number"
+          }
+        },
+        "generator": "boolean",
+        "expression": "boolean",
+        "async": "boolean",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": "string",
+              "value": "string",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        },
+        "comments": [
+          {
+            "type": "string",
+            "value": "string",
+            "loc": {
+              "start": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "end": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "lines": {
+                "infos": [
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  }
+                ],
+                "mappings": "array",
+                "cachedSourceMap": "object",
+                "cachedTabWidth": "undefined",
+                "length": "number",
+                "name": "object"
+              },
+              "tokens": [
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "string",
+                  "value": "string",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                }
+              ],
+              "indent": "number"
+            },
+            "leading": "boolean",
+            "trailing": "boolean"
+          }
+        ]
+      }
+    ],
+    "sourceType": "string",
+    "loc": {
+      "start": {
+        "line": "number",
+        "column": "number",
+        "token": "number"
+      },
+      "end": {
+        "line": "number",
+        "column": "number",
+        "token": "number"
+      },
+      "lines": {
+        "infos": [
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          }
+        ],
+        "mappings": "array",
+        "cachedSourceMap": "object",
+        "cachedTabWidth": "undefined",
+        "length": "number",
+        "name": "object"
+      },
+      "indent": "number",
+      "tokens": [
+        {
+          "type": "string",
+          "value": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": "string",
+          "value": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": "string",
+          "value": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": "string",
+          "value": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": "string",
+          "value": "string",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        }
+      ]
+    },
+    "errors": [
+      {
+        "index": "number",
+        "lineNumber": "number",
+        "description": "string"
+      },
+      {
+        "index": "number",
+        "lineNumber": "number",
+        "description": "string"
+      },
+      {
+        "index": "number",
+        "lineNumber": "number",
+        "description": "string"
+      },
+      {
+        "index": "number",
+        "lineNumber": "number",
+        "description": "string"
+      }
+    ]
+  },
+  "name": "object",
+  "loc": {
+    "start": {
+      "line": "number",
+      "column": "number",
+      "token": "number"
+    },
+    "end": {
+      "line": "number",
+      "column": "number",
+      "token": "number"
+    },
+    "lines": {
+      "infos": [
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        }
+      ],
+      "mappings": "array",
+      "cachedSourceMap": "object",
+      "cachedTabWidth": "undefined",
+      "length": "number",
+      "name": "object"
+    },
+    "indent": "number",
+    "tokens": [
+      {
+        "type": "string",
+        "value": "string",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": "string",
+        "value": "string",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": "string",
+        "value": "string",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": "string",
+        "value": "string",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": "string",
+        "value": "string",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      }
+    ]
+  },
+  "type": "string",
+  "comments": "object",
+  "tokens": [
+    {
+      "type": "string",
+      "value": "string",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": "string",
+      "value": "string",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": "string",
+      "value": "string",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": "string",
+      "value": "string",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": "string",
+      "value": "string",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    }
+  ]
+}

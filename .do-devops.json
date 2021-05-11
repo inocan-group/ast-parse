@@ -1,0 +1,15 @@
+{
+  "kind": "project",
+  "projectConfig": true,
+  "general": {
+    "pkgManager": "pnpm",
+    "bundler": "rollup"
+  },
+  "aws": {},
+  "test": {
+    "unitTestFramework": "jest",
+    "useWallaby": true,
+    "testDirectory": "tests",
+    "testFilePostfix": ["-spec"]
+  }
+}

@@ -1,0 +1,1785 @@
+{
+  "program": {
+    "type": "string",
+    "start": "number",
+    "end": "number",
+    "loc": {
+      "start": {
+        "line": "number",
+        "column": "number",
+        "token": "number"
+      },
+      "end": {
+        "line": "number",
+        "column": "number",
+        "token": "number"
+      },
+      "lines": {
+        "infos": [
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          },
+          {
+            "line": "string",
+            "indent": "number",
+            "locked": "boolean",
+            "sliceStart": "number",
+            "sliceEnd": "number"
+          }
+        ],
+        "mappings": "array",
+        "cachedSourceMap": "object",
+        "cachedTabWidth": "undefined",
+        "length": "number",
+        "name": "object"
+      },
+      "indent": "number",
+      "tokens": [
+        {
+          "type": {
+            "label": "string",
+            "keyword": "string",
+            "beforeExpr": "boolean",
+            "startsExpr": "boolean",
+            "isLoop": "boolean",
+            "isAssign": "boolean",
+            "prefix": "boolean",
+            "postfix": "boolean",
+            "binop": "object",
+            "updateContext": "object"
+          },
+          "value": "string",
+          "start": "number",
+          "end": "number",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": {
+            "label": "string",
+            "keyword": "undefined",
+            "beforeExpr": "boolean",
+            "startsExpr": "boolean",
+            "isLoop": "boolean",
+            "isAssign": "boolean",
+            "prefix": "boolean",
+            "postfix": "boolean",
+            "binop": "object",
+            "updateContext": "function"
+          },
+          "value": "string",
+          "start": "number",
+          "end": "number",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            }
+          }
+        },
+        {
+          "type": {
+            "label": "string",
+            "keyword": "undefined",
+            "beforeExpr": "boolean",
+            "startsExpr": "boolean",
+            "isLoop": "boolean",
+            "isAssign": "boolean",
+            "prefix": "boolean",
+            "postfix": "boolean",
+            "binop": "object",
+            "updateContext": "object"
+          },
+          "value": "string",
+          "start": "number",
+          "end": "number",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": {
+            "label": "string",
+            "keyword": "undefined",
+            "beforeExpr": "boolean",
+            "startsExpr": "boolean",
+            "isLoop": "boolean",
+            "isAssign": "boolean",
+            "prefix": "boolean",
+            "postfix": "boolean",
+            "binop": "object",
+            "updateContext": "function"
+          },
+          "value": "string",
+          "start": "number",
+          "end": "number",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number",
+              "token": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        },
+        {
+          "type": {
+            "label": "string",
+            "keyword": "undefined",
+            "beforeExpr": "boolean",
+            "startsExpr": "boolean",
+            "isLoop": "boolean",
+            "isAssign": "boolean",
+            "prefix": "boolean",
+            "postfix": "boolean",
+            "binop": "object",
+            "updateContext": "function"
+          },
+          "value": "string",
+          "start": "number",
+          "end": "number",
+          "loc": {
+            "start": {
+              "line": "number",
+              "column": "number"
+            },
+            "end": {
+              "line": "number",
+              "column": "number"
+            }
+          }
+        }
+      ]
+    },
+    "body": [
+      {
+        "type": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": {
+                "label": "string",
+                "keyword": "string",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "object"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "object"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        },
+        "declarations": [
+          {
+            "type": "string",
+            "start": "number",
+            "end": "number",
+            "loc": {
+              "start": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "end": {
+                "line": "number",
+                "column": "number",
+                "token": "number"
+              },
+              "lines": {
+                "infos": [
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  },
+                  {
+                    "line": "string",
+                    "indent": "number",
+                    "locked": "boolean",
+                    "sliceStart": "number",
+                    "sliceEnd": "number"
+                  }
+                ],
+                "mappings": "array",
+                "cachedSourceMap": "object",
+                "cachedTabWidth": "undefined",
+                "length": "number",
+                "name": "object"
+              },
+              "tokens": [
+                {
+                  "type": {
+                    "label": "string",
+                    "keyword": "string",
+                    "beforeExpr": "boolean",
+                    "startsExpr": "boolean",
+                    "isLoop": "boolean",
+                    "isAssign": "boolean",
+                    "prefix": "boolean",
+                    "postfix": "boolean",
+                    "binop": "object",
+                    "updateContext": "object"
+                  },
+                  "value": "string",
+                  "start": "number",
+                  "end": "number",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": {
+                    "label": "string",
+                    "keyword": "undefined",
+                    "beforeExpr": "boolean",
+                    "startsExpr": "boolean",
+                    "isLoop": "boolean",
+                    "isAssign": "boolean",
+                    "prefix": "boolean",
+                    "postfix": "boolean",
+                    "binop": "object",
+                    "updateContext": "function"
+                  },
+                  "value": "string",
+                  "start": "number",
+                  "end": "number",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    }
+                  }
+                },
+                {
+                  "type": {
+                    "label": "string",
+                    "keyword": "undefined",
+                    "beforeExpr": "boolean",
+                    "startsExpr": "boolean",
+                    "isLoop": "boolean",
+                    "isAssign": "boolean",
+                    "prefix": "boolean",
+                    "postfix": "boolean",
+                    "binop": "object",
+                    "updateContext": "object"
+                  },
+                  "value": "string",
+                  "start": "number",
+                  "end": "number",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": {
+                    "label": "string",
+                    "keyword": "undefined",
+                    "beforeExpr": "boolean",
+                    "startsExpr": "boolean",
+                    "isLoop": "boolean",
+                    "isAssign": "boolean",
+                    "prefix": "boolean",
+                    "postfix": "boolean",
+                    "binop": "object",
+                    "updateContext": "function"
+                  },
+                  "value": "string",
+                  "start": "number",
+                  "end": "number",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number",
+                      "token": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                },
+                {
+                  "type": {
+                    "label": "string",
+                    "keyword": "undefined",
+                    "beforeExpr": "boolean",
+                    "startsExpr": "boolean",
+                    "isLoop": "boolean",
+                    "isAssign": "boolean",
+                    "prefix": "boolean",
+                    "postfix": "boolean",
+                    "binop": "object",
+                    "updateContext": "function"
+                  },
+                  "value": "string",
+                  "start": "number",
+                  "end": "number",
+                  "loc": {
+                    "start": {
+                      "line": "number",
+                      "column": "number"
+                    },
+                    "end": {
+                      "line": "number",
+                      "column": "number"
+                    }
+                  }
+                }
+              ],
+              "indent": "number"
+            },
+            "id": {
+              "type": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "string",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "object"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "object"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              },
+              "name": "string"
+            },
+            "init": {
+              "type": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "lines": {
+                  "infos": [
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    },
+                    {
+                      "line": "string",
+                      "indent": "number",
+                      "locked": "boolean",
+                      "sliceStart": "number",
+                      "sliceEnd": "number"
+                    }
+                  ],
+                  "mappings": "array",
+                  "cachedSourceMap": "object",
+                  "cachedTabWidth": "undefined",
+                  "length": "number",
+                  "name": "object"
+                },
+                "tokens": [
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "string",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "object"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "object"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number",
+                        "token": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  },
+                  {
+                    "type": {
+                      "label": "string",
+                      "keyword": "undefined",
+                      "beforeExpr": "boolean",
+                      "startsExpr": "boolean",
+                      "isLoop": "boolean",
+                      "isAssign": "boolean",
+                      "prefix": "boolean",
+                      "postfix": "boolean",
+                      "binop": "object",
+                      "updateContext": "function"
+                    },
+                    "value": "string",
+                    "start": "number",
+                    "end": "number",
+                    "loc": {
+                      "start": {
+                        "line": "number",
+                        "column": "number"
+                      },
+                      "end": {
+                        "line": "number",
+                        "column": "number"
+                      }
+                    }
+                  }
+                ],
+                "indent": "number"
+              },
+              "id": "object",
+              "expression": "boolean",
+              "generator": "boolean",
+              "params": "array",
+              "body": {
+                "type": "string",
+                "start": "number",
+                "end": "number",
+                "loc": {
+                  "start": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "end": {
+                    "line": "number",
+                    "column": "number",
+                    "token": "number"
+                  },
+                  "lines": {
+                    "infos": [
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      },
+                      {
+                        "line": "string",
+                        "indent": "number",
+                        "locked": "boolean",
+                        "sliceStart": "number",
+                        "sliceEnd": "number"
+                      }
+                    ],
+                    "mappings": "array",
+                    "cachedSourceMap": "object",
+                    "cachedTabWidth": "undefined",
+                    "length": "number",
+                    "name": "object"
+                  },
+                  "tokens": [
+                    {
+                      "type": {
+                        "label": "string",
+                        "keyword": "string",
+                        "beforeExpr": "boolean",
+                        "startsExpr": "boolean",
+                        "isLoop": "boolean",
+                        "isAssign": "boolean",
+                        "prefix": "boolean",
+                        "postfix": "boolean",
+                        "binop": "object",
+                        "updateContext": "object"
+                      },
+                      "value": "string",
+                      "start": "number",
+                      "end": "number",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number",
+                          "token": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": {
+                        "label": "string",
+                        "keyword": "undefined",
+                        "beforeExpr": "boolean",
+                        "startsExpr": "boolean",
+                        "isLoop": "boolean",
+                        "isAssign": "boolean",
+                        "prefix": "boolean",
+                        "postfix": "boolean",
+                        "binop": "object",
+                        "updateContext": "function"
+                      },
+                      "value": "string",
+                      "start": "number",
+                      "end": "number",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number",
+                          "token": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number",
+                          "token": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": {
+                        "label": "string",
+                        "keyword": "undefined",
+                        "beforeExpr": "boolean",
+                        "startsExpr": "boolean",
+                        "isLoop": "boolean",
+                        "isAssign": "boolean",
+                        "prefix": "boolean",
+                        "postfix": "boolean",
+                        "binop": "object",
+                        "updateContext": "object"
+                      },
+                      "value": "string",
+                      "start": "number",
+                      "end": "number",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": {
+                        "label": "string",
+                        "keyword": "undefined",
+                        "beforeExpr": "boolean",
+                        "startsExpr": "boolean",
+                        "isLoop": "boolean",
+                        "isAssign": "boolean",
+                        "prefix": "boolean",
+                        "postfix": "boolean",
+                        "binop": "object",
+                        "updateContext": "function"
+                      },
+                      "value": "string",
+                      "start": "number",
+                      "end": "number",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number",
+                          "token": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    },
+                    {
+                      "type": {
+                        "label": "string",
+                        "keyword": "undefined",
+                        "beforeExpr": "boolean",
+                        "startsExpr": "boolean",
+                        "isLoop": "boolean",
+                        "isAssign": "boolean",
+                        "prefix": "boolean",
+                        "postfix": "boolean",
+                        "binop": "object",
+                        "updateContext": "function"
+                      },
+                      "value": "string",
+                      "start": "number",
+                      "end": "number",
+                      "loc": {
+                        "start": {
+                          "line": "number",
+                          "column": "number"
+                        },
+                        "end": {
+                          "line": "number",
+                          "column": "number"
+                        }
+                      }
+                    }
+                  ],
+                  "indent": "number"
+                },
+                "value": "string",
+                "raw": "string"
+              }
+            }
+          }
+        ],
+        "kind": "string"
+      },
+      {
+        "type": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "lines": {
+            "infos": [
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              },
+              {
+                "line": "string",
+                "indent": "number",
+                "locked": "boolean",
+                "sliceStart": "number",
+                "sliceEnd": "number"
+              }
+            ],
+            "mappings": "array",
+            "cachedSourceMap": "object",
+            "cachedTabWidth": "undefined",
+            "length": "number",
+            "name": "object"
+          },
+          "tokens": [
+            {
+              "type": {
+                "label": "string",
+                "keyword": "string",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "object"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "object"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number",
+                  "token": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            },
+            {
+              "type": {
+                "label": "string",
+                "keyword": "undefined",
+                "beforeExpr": "boolean",
+                "startsExpr": "boolean",
+                "isLoop": "boolean",
+                "isAssign": "boolean",
+                "prefix": "boolean",
+                "postfix": "boolean",
+                "binop": "object",
+                "updateContext": "function"
+              },
+              "value": "string",
+              "start": "number",
+              "end": "number",
+              "loc": {
+                "start": {
+                  "line": "number",
+                  "column": "number"
+                },
+                "end": {
+                  "line": "number",
+                  "column": "number"
+                }
+              }
+            }
+          ],
+          "indent": "number"
+        },
+        "declaration": {
+          "type": "string",
+          "start": "number",
+          "end": "number",
+          "loc": "object",
+          "name": "string"
+        }
+      }
+    ],
+    "sourceType": "string"
+  },
+  "name": "object",
+  "loc": {
+    "start": {
+      "line": "number",
+      "column": "number",
+      "token": "number"
+    },
+    "end": {
+      "line": "number",
+      "column": "number",
+      "token": "number"
+    },
+    "lines": {
+      "infos": [
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        },
+        {
+          "line": "string",
+          "indent": "number",
+          "locked": "boolean",
+          "sliceStart": "number",
+          "sliceEnd": "number"
+        }
+      ],
+      "mappings": "array",
+      "cachedSourceMap": "object",
+      "cachedTabWidth": "undefined",
+      "length": "number",
+      "name": "object"
+    },
+    "indent": "number",
+    "tokens": [
+      {
+        "type": {
+          "label": "string",
+          "keyword": "string",
+          "beforeExpr": "boolean",
+          "startsExpr": "boolean",
+          "isLoop": "boolean",
+          "isAssign": "boolean",
+          "prefix": "boolean",
+          "postfix": "boolean",
+          "binop": "object",
+          "updateContext": "object"
+        },
+        "value": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": {
+          "label": "string",
+          "keyword": "undefined",
+          "beforeExpr": "boolean",
+          "startsExpr": "boolean",
+          "isLoop": "boolean",
+          "isAssign": "boolean",
+          "prefix": "boolean",
+          "postfix": "boolean",
+          "binop": "object",
+          "updateContext": "function"
+        },
+        "value": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          }
+        }
+      },
+      {
+        "type": {
+          "label": "string",
+          "keyword": "undefined",
+          "beforeExpr": "boolean",
+          "startsExpr": "boolean",
+          "isLoop": "boolean",
+          "isAssign": "boolean",
+          "prefix": "boolean",
+          "postfix": "boolean",
+          "binop": "object",
+          "updateContext": "object"
+        },
+        "value": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": {
+          "label": "string",
+          "keyword": "undefined",
+          "beforeExpr": "boolean",
+          "startsExpr": "boolean",
+          "isLoop": "boolean",
+          "isAssign": "boolean",
+          "prefix": "boolean",
+          "postfix": "boolean",
+          "binop": "object",
+          "updateContext": "function"
+        },
+        "value": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number",
+            "token": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      },
+      {
+        "type": {
+          "label": "string",
+          "keyword": "undefined",
+          "beforeExpr": "boolean",
+          "startsExpr": "boolean",
+          "isLoop": "boolean",
+          "isAssign": "boolean",
+          "prefix": "boolean",
+          "postfix": "boolean",
+          "binop": "object",
+          "updateContext": "function"
+        },
+        "value": "string",
+        "start": "number",
+        "end": "number",
+        "loc": {
+          "start": {
+            "line": "number",
+            "column": "number"
+          },
+          "end": {
+            "line": "number",
+            "column": "number"
+          }
+        }
+      }
+    ]
+  },
+  "type": "string",
+  "comments": "object",
+  "tokens": [
+    {
+      "type": {
+        "label": "string",
+        "keyword": "string",
+        "beforeExpr": "boolean",
+        "startsExpr": "boolean",
+        "isLoop": "boolean",
+        "isAssign": "boolean",
+        "prefix": "boolean",
+        "postfix": "boolean",
+        "binop": "object",
+        "updateContext": "object"
+      },
+      "value": "string",
+      "start": "number",
+      "end": "number",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number",
+          "token": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "keyword": "undefined",
+        "beforeExpr": "boolean",
+        "startsExpr": "boolean",
+        "isLoop": "boolean",
+        "isAssign": "boolean",
+        "prefix": "boolean",
+        "postfix": "boolean",
+        "binop": "object",
+        "updateContext": "function"
+      },
+      "value": "string",
+      "start": "number",
+      "end": "number",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number",
+          "token": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number",
+          "token": "number"
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "keyword": "undefined",
+        "beforeExpr": "boolean",
+        "startsExpr": "boolean",
+        "isLoop": "boolean",
+        "isAssign": "boolean",
+        "prefix": "boolean",
+        "postfix": "boolean",
+        "binop": "object",
+        "updateContext": "object"
+      },
+      "value": "string",
+      "start": "number",
+      "end": "number",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "keyword": "undefined",
+        "beforeExpr": "boolean",
+        "startsExpr": "boolean",
+        "isLoop": "boolean",
+        "isAssign": "boolean",
+        "prefix": "boolean",
+        "postfix": "boolean",
+        "binop": "object",
+        "updateContext": "function"
+      },
+      "value": "string",
+      "start": "number",
+      "end": "number",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number",
+          "token": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "keyword": "undefined",
+        "beforeExpr": "boolean",
+        "startsExpr": "boolean",
+        "isLoop": "boolean",
+        "isAssign": "boolean",
+        "prefix": "boolean",
+        "postfix": "boolean",
+        "binop": "object",
+        "updateContext": "function"
+      },
+      "value": "string",
+      "start": "number",
+      "end": "number",
+      "loc": {
+        "start": {
+          "line": "number",
+          "column": "number"
+        },
+        "end": {
+          "line": "number",
+          "column": "number"
+        }
+      }
+    }
+  ]
+}
