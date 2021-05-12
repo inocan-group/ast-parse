@@ -1,14 +1,13 @@
-// #autoindex
+// #autoindex, exclude: defaultExport, lotsGoingOn
 
 // #region autoindexed files
 
-// index last changed at: 5th May, 2021, 09:17 PM ( GMT-7 )
-// export: named; exclusions: index, private.
-// files: ast-files, lotsGoingOn.
+// index last changed at: 5th May, 2021, 09:08 PM ( GMT-7 )
+// export: named; exclusions: defaultExport, lotsGoingOn, index, private.
+// files: ast-files.
 
 // local file exports
 export * from "./ast-files";
-export * from "./lotsGoingOn";
 
 // Note:
 // -----

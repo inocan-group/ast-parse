@@ -1,11 +1,6 @@
 /* eslint-disable no-use-before-define */
 import { isNonNullObject } from "common-types";
-import {
-  ITsExtractedExpression,
-  ITsExtractedImportSpecifier,
-  ITsExtractedSpecifier,
-  ITsExtractedStatement,
-} from ".";
+import { ITsExtractedExpression, ITsExtractedSpecifier, ITsExtractedStatement } from ".";
 
 export type ITsExtractedDefaultExport = {
   scope: "declaration";
@@ -32,11 +27,11 @@ export type ITsExtractedFunctionDeclaration = {
   isAsync: boolean;
   isExpression: boolean;
   isGenerator: boolean;
-  params: {
+  params: Array<{
     name: string;
     type: string;
     typeAnnotation: string;
-  }[];
+  }>;
 
   body: ITsExtractedStatement[];
 };
@@ -57,7 +52,7 @@ export type ITsExtractedImportDeclaration = {
   type: "ImportDeclaration";
   importKind: string;
   source: ITsExtractedExpression;
-  specifiers: ITsExtractedImportSpecifier[];
+  specifiers: ITsExtractedSpecifier[];
 };
 
 export type ITsExtractedUnknownDeclaration = {
@@ -80,7 +75,7 @@ export function isExtractedImport(thing: unknown): thing is ITsExtractedImportDe
   return (
     isNonNullObject(thing) &&
     (thing as { type: string })?.type === "ImportDeclaration" &&
-    (thing as any)?.scope === "declaration"
+    (thing as any)?.kind === "import"
   );
 }
 

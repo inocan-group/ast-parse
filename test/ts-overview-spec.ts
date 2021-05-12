@@ -4,7 +4,10 @@ import { overviewExtraction } from "~/extractors/overviewExtraction";
 describe("Typescript overview parsing results", () => {
   it("Named Exports is reported correctly", () => {
     const p = overviewExtraction(readFileSync("test/data/lotsGoingOn.ts", { encoding: "utf-8" }));
-    console.log(JSON.stringify(p, null, 2));
+    expect(p.namedExports.length).toBeGreaterThan(1);
+    expect(p.namedExports.map((i) => i.name)).toContain("baz");
+    expect(p.namedExports.map((i) => i.name)).toContain("baz2");
+    expect(p.namedExports.map((i) => i.name)).toContain("DoIt");
   });
 
   it("Default Export is reported correctly", () => {

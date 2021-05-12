@@ -1,3 +1,4 @@
+import { IDictionary, isNonNullObject } from "common-types";
 import { ITsExtractedExpression } from "./ts-ext-expression";
 
 export interface ITsExtractedImportSpecifier {
@@ -13,3 +14,7 @@ export interface ITsExtractedUnknownSpecifier {
 }
 
 export type ITsExtractedSpecifier = ITsExtractedImportSpecifier | ITsExtractedUnknownSpecifier;
+
+export function isExtractedImportSpecifier(thing: unknown): thing is ITsExtractedImportSpecifier {
+  return isNonNullObject(thing) && (thing as IDictionary).type === "ImportSpecifier";
+}

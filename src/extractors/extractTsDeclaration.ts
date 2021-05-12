@@ -1,6 +1,11 @@
 /* eslint-disable no-use-before-define */
 import { keys } from "native-dash";
-import { ITsDeclaration, ITsExtractedDeclaration, ITsExtractedStatement } from "~/@types";
+import {
+  isExtractedImportSpecifier,
+  ITsDeclaration,
+  ITsExtractedDeclaration,
+  ITsExtractedStatement,
+} from "~/@types";
 import { extractTsExpression } from "./extractTsExpression";
 import { extractTsSpecifiers } from "./extractTsSpecifiers";
 import { extractTsStatement } from "./extractTsStatement";
@@ -78,7 +83,9 @@ export function extractTsDeclaraction(dec: ITsDeclaration): ITsExtractedDeclarat
         type: dec.type,
         importKind: dec.importKind,
         source: extractTsExpression(dec.source),
-        specifiers: dec.specifiers.map((i) => extractTsSpecifiers(i)),
+        specifiers: dec.specifiers
+          .map((i) => extractTsSpecifiers(i))
+          .filter((i) => isExtractedImportSpecifier(i)),
       };
 
     default:

@@ -5,6 +5,8 @@ import {
   isExtractedVariable,
   isExtractedImport,
   isExtractedDefaultExport,
+  isExtractedImportSpecifier,
+  hasName,
 } from "~/@types";
 import {
   ITsSummaryImport,
@@ -32,7 +34,9 @@ export function overviewExtraction(content: string): ITsSummaryOverview {
       }
       return {
         source: hasValue(d.source) ? d.source.value : "unknown",
-        symbols: d.specifiers.map((s) => s.local.name || "unknown"),
+        symbols: d.specifiers.map((s) =>
+          isExtractedImportSpecifier(s) && hasName(s.local) ? s.local.name : "unknown"
+        ),
       };
     });
 
@@ -82,11 +86,11 @@ export function overviewExtraction(content: string): ITsSummaryOverview {
             name: d.declaration.name,
             params: d.declaration.params.map((p) => ({ name: p.name, type: p.typeAnnotation })),
             returns: {
-              type: d.declaration.body.find((i) => i.kind === "return")?.argument.type,
+              type: d.declaration.body.find((i) => i.kind === "return")?.argument?.type as string,
               value: d.declaration.body
                 .find((i) => i.kind === "return")
                 ?.argument?.quasis?.map((q: any) => q.value.raw as string)
-                .join(),
+                .join() as string,
             },
           }
         : isExtractedVariable(d.declaration)

@@ -1,6 +1,6 @@
 export type ITsNamedExportFunction = {
   kind: "function";
-  params: [{ name: string; type: string }];
+  params: Array<{ name: string; type: string }>;
   returns: { type?: string; value?: string };
 };
 
@@ -29,11 +29,11 @@ export type ITsSummaryImport = {
 
 export type ITsSummaryLocalFunction = {
   name: string;
-  params: {
+  params: Array<{
     name: string;
     type: string;
-  }[];
-  returns: { type?: string; value?: string } | "void";
+  }>;
+  returns: { type: string; value: string } | "void";
 };
 
 export type ITsSummaryDefaultExport = false | ITsSummaryExport;

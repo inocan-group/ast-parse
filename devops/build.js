@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/no-process-exit */
 /* eslint-disable unicorn/import-style */
 /* eslint-disable unicorn/prefer-module */
 
@@ -72,7 +73,7 @@ function inferDirectory(file) {
     return "";
   }
   const fileParts = file.split("/");
-  return fileParts.slice(0, fileParts.length - 1).join("/");
+  return fileParts.slice(0, -1).join("/");
 }
 
 /**
@@ -83,7 +84,7 @@ function inferDirectory(file) {
  * @param {boolean} minimized
  * @param {boolean} emitDeclaration
  */
-const moduleConfig = (moduleSystem, file, minimized, emitDeclaration) => {
+const moduleConfig = (moduleSystem, file, emitDeclaration) => {
   try {
     const input = "src/index.ts";
     if (!existsSync(input)) {
@@ -135,41 +136,29 @@ const moduleConfig = (moduleSystem, file, minimized, emitDeclaration) => {
           : []),
         // @ts-ignore
         ...(switches.has("closure") ? [closure()] : []),
-        ...(minimized ? [terser()] : []),
+        ...(switches.has("min") ? [terser()] : []),
       ],
     };
-  } catch (e) {
-    console.warn(`- 👎 the build failed building Rollup configuration: ${e.message}`);
-    console.log(`\n${e.stack}\n`);
+  } catch (error) {
+    console.warn(`- 👎 the build failed building Rollup configuration: ${error.message}`);
+    console.log(`\n${error.stack}\n`);
     process.exit(1);
   }
 };
 
 /**
- * Takes a path and filename and adds `.min` before the filename's extension.
- *
- * @param {string} filename
- * @param {boolean} isMin
- */
-function minimizeFilename(filename, isMin) {
-  if (isMin) {
-    const parts = filename.split(".");
-    filename = join(parts.slice(0, parts.length - 1).join("."), `.min.${parts.slice(-1)}`);
-  }
-
-  return filename;
-}
-
-/**
  * Uses Rollup API to bundle the repo.
  *
  * @param {string} m
- * @param {boolean} min
  * @param {boolean} emitDeclaration
  */
-async function buildModule(m, min, emitDeclaration) {
+async function buildModule(m, emitDeclaration) {
   try {
-    console.log(`- 📦 starting bundling of ${m.toUpperCase()} module ${min ? "(minimized)" : ""}`);
+    console.log(
+      `- 📦 starting bundling of ${m.toUpperCase()} module ${
+        switches.has("min") ? "(minimized)" : ""
+      }`
+    );
     if (switches.has("closure")) {
       console.log(`- using closure compiler to minimize file size`);
     }
@@ -179,10 +168,10 @@ async function buildModule(m, min, emitDeclaration) {
         `- 🤨 while you are building for the ES module system your package.json doesn't specify a "module" entrypoint.`
       );
     }
-    const file = minimizeFilename(getFilenameByModule(m), min);
+    const file = getFilenameByModule(m);
     console.log(`- transpiled source will be saved as: ${file}`);
     // build the configuration
-    const config = moduleConfig(m, file, min, emitDeclaration);
+    const config = moduleConfig(m, file, emitDeclaration);
     if (switches.has("v") || switches.has("verbose")) {
       console.log("- bundle config is:\n", JSON.stringify(config, null, 2));
     }
@@ -200,9 +189,9 @@ async function buildModule(m, min, emitDeclaration) {
     console.log(
       `- 🚀 bundling saved to the "${file}" file [ ${Math.floor(output.size / 100) / 10} kb ].\n`
     );
-  } catch (e) {
+  } catch (error) {
     console.warn(`- 👎 the build failed during Rollup bundling`);
-    console.log(`\n${e.stack}\n`);
+    console.log(`\n${error.stack}\n`);
     process.exit(1);
   }
 }
@@ -246,17 +235,7 @@ const usesGlobalVars = (mod) => {
 
   for (const m of moduleSystems) {
     const emitDeclaration = moduleSystems.length === 1 || getModuleShortname(m) === "es";
-    await buildModule(m, false, emitDeclaration);
-  }
-
-  if (switches.has("min")) {
-    if (!moduleSystems.includes("commonjs")) {
-      throw new Error(
-        "Minimization was requested but no CJS module was built; either include CJS module build or remove minimization"
-      );
-    }
-    console.log("Building minimized version of CJS module system");
-    await buildModule("commonjs", true, true);
+    await buildModule(m, emitDeclaration);
   }
 
   console.log("\n- Build completed!\n");
