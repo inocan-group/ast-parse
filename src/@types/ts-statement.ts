@@ -1,4 +1,4 @@
-import { ITsExpression } from "./ts-expressions";
+import { ITsExpression, ITsTemplateElement } from "./ts-expressions";
 import { ITsTokenCommentSections, TsBodyLoc } from "./ts-patterns";
 
 export interface ITsBlockStatement extends ITsTokenCommentSections {
@@ -16,44 +16,16 @@ export interface ITsExpressionStatement extends ITsTokenCommentSections {
 export interface ITsIfStatement extends ITsTokenCommentSections {
   type: "IfStatement";
   loc: TsBodyLoc;
-  consequent: {
-    type: string;
-    start: unknown;
-    end: unknown;
-    loc: TsBodyLoc;
-    range: unknown;
-    body: ITsBlockStatement[];
-    directives: { type: string }[];
-  };
+  consequent: ITsBlockStatement;
   alternate: null | unknown;
-  test: {
-    type: string;
-    name: string;
-    start: unknown;
-    end: unknown;
-    loc: TsBodyLoc;
-    range: unknown;
-    extra: unknown;
-  };
-}
-
-export interface ITsQuasis extends ITsTokenCommentSections {
-  type: string;
-  value: any;
-  tail: any;
-
-  start: unknown;
-  end: unknown;
-  loc: TsBodyLoc;
-  range: unknown;
-  extra: unknown;
+  test: ITsExpression;
 }
 
 export interface ITsReturnStatement extends ITsTokenCommentSections {
   type: "ReturnStatement";
   argument: {
     type: string;
-    quasis: ITsQuasis[];
+    quasis: ITsTemplateElement[];
     expressions: ITsExpression[];
 
     start: unknown;

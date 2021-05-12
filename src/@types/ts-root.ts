@@ -3,7 +3,7 @@ import { ITsDeclaration } from "./ts-declarations";
 import { TsBodyLoc } from "./ts-patterns";
 import { TsToken } from "./ts-tokens";
 
-export interface ITsDocument {
+export interface ITsAst {
   program: {
     type: "Program" | unknown;
     body: ITsDeclaration[];
@@ -20,7 +20,7 @@ export interface ITsDocument {
   extra: unknown;
 }
 
-export function isTsDocument(thing: unknown): thing is ITsDocument {
+export function isTsDocument(thing: unknown): thing is ITsAst {
   return (
     isNonNullObject(thing) &&
     typeof (thing as IDictionary).program === "object" &&

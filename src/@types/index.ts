@@ -2,9 +2,9 @@
 
 // #region autoindexed files
 
-// index last changed at: 5th May, 2021, 01:02 PM ( GMT-7 )
+// index last changed at: 5th May, 2021, 04:16 PM ( GMT-7 )
 // export: named; exclusions: index, private.
-// files: acorn-body, acorn-general, acorn-root, acron-patterns, general, ts-comments, ts-declarations, ts-expressions, ts-patterns, ts-root, ts-statement, ts-tokens.
+// files: acorn-body, acorn-general, acorn-root, acron-patterns, general, overview-types, ts-comments, ts-declarations, ts-expressions, ts-patterns, ts-root, ts-specifiers, ts-statement, ts-tokens, type-guards.
 
 // local file exports
 export * from "./acorn-body";
@@ -12,13 +12,16 @@ export * from "./acorn-general";
 export * from "./acorn-root";
 export * from "./acron-patterns";
 export * from "./general";
+export * from "./overview-types";
 export * from "./ts-comments";
 export * from "./ts-declarations";
 export * from "./ts-expressions";
 export * from "./ts-patterns";
 export * from "./ts-root";
+export * from "./ts-specifiers";
 export * from "./ts-statement";
 export * from "./ts-tokens";
+export * from "./type-guards";
 
 // Note:
 // -----

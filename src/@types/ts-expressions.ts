@@ -59,9 +59,49 @@ export interface ITsTemplateLiteralExpression {
   loc: TsBodyLoc;
 }
 
+export interface ITsStringLiteralExpression {
+  type: "StringLiteral";
+  name: string;
+  value: string;
+  expressions: ITsIdentifierExpression[];
+  start: unknown;
+  end: unknown;
+  range: unknown;
+  extra: unknown;
+  loc: TsBodyLoc;
+}
+
+export interface ITsNumericLiteralExpression {
+  type: "NumericLiteral";
+  name: string;
+  value: number;
+  expressions: ITsIdentifierExpression[];
+  start: unknown;
+  end: unknown;
+  range: unknown;
+  extra: unknown;
+  loc: TsBodyLoc;
+}
+
+export interface ITsTemplateElement extends ITsTokenCommentSections {
+  type: "TemplateElement";
+  name: string;
+  tail: boolean;
+  value: any;
+
+  start: unknown;
+  end: unknown;
+  range: unknown;
+  extra: unknown;
+  loc: TsBodyLoc;
+}
+
 export type ITsExpression =
   | ITsCallExpression
   | ITsArrowFunctionExpression
   | ITsMemberExpression
   | ITsTemplateLiteralExpression
+  | ITsStringLiteralExpression
+  | ITsTemplateElement
+  | ITsNumericLiteralExpression
   | ITsIdentifierExpression;

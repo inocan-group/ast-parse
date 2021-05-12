@@ -2,7 +2,8 @@
 import { isNonNullObject } from "common-types";
 import { ITsComment } from "./ts-comments";
 import { ITsExpression } from "./ts-expressions";
-import { TsBodyLoc, TsVariableKind } from "./ts-patterns";
+import { ITsTokenCommentSections, TsBodyLoc, TsVariableKind } from "./ts-patterns";
+import { ITsSpecifier } from "./ts-specifiers";
 import { ITsBlockStatement } from "./ts-statement";
 
 /** type-guard to validate that a given declaration has a singular declaration */
@@ -36,9 +37,13 @@ export function isVariableDeclaration(thing: unknown): thing is ITsVariableDecla
   return isNonNullObject(thing) && (thing as { type: string }).type === "VariableDeclaration";
 }
 
-export interface ITsImportDeclaration {
+export interface ITsImportDeclaration extends ITsTokenCommentSections {
   type: "ImportDeclaration";
-  declaration: ITsDeclaration;
+  importKind: string;
+  specifiers: ITsSpecifier[];
+  source: ITsExpression;
+  comments: ITsComment[];
+
   [key: string]: any;
 }
 
@@ -53,7 +58,7 @@ export function isExportDefaultDeclaration(thing: unknown): thing is ITsExportDe
 }
 
 export interface ITsTypeAnnotation {
-  type: "TSTypeAnnotation" | "TSNumberKeyword" | "TSStringKeyword" | "TSFunctionType";
+  type: string;
   typeAnnotation: ITsTypeAnnotation;
 }
 
@@ -94,8 +99,8 @@ export function isFunctionDeclaration(thing: unknown): thing is ITsFunctionDecla
 export interface ITsExportNamedDeclaration {
   type: "ExportNamedDeclaration";
   declaration: ITsVariableDeclaration | ITsFunctionDeclaration;
-  specifiers: [];
-  source: null | unknown;
+  specifiers: ITsSpecifier[];
+  source: null | ITsExpression;
   loc: TsBodyLoc;
   comments: ITsComment[];
 }

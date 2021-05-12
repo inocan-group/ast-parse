@@ -11,8 +11,18 @@ export type TsKeyword =
   | "function"
   | unknown;
 
-export type TsScope = "declaration" | "statement" | "expression";
-export type TsDeclaratorKind = "import" | "export" | "function" | "variable";
+export type TsScope = "declaration" | "statement" | "expression" | "specifier";
+export type TsStatementKind = "expression" | "block" | "conditional" | "unknown" | "return";
+export type TsDeclaratorKind = "import" | "export" | "function" | "variable" | "unknown";
+export type TsExpressionKind =
+  | "literal"
+  | "identifier"
+  | "function"
+  | "call"
+  | "member"
+  | "template"
+  | "unknown";
+export type TsSpecifierKind = "import" | "unknown";
 
 export type TsPunctuator = "=" | "(" | ")" | "=>" | ";" | "," | "{" | "}" | unknown;
 
