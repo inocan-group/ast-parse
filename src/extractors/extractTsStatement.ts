@@ -1,12 +1,5 @@
-import { ITsStatement, TsScope, TsStatementKind } from "~/@types";
+import { ITsStatement, ITsExtractedStatement } from "~/@types";
 import { extractTsExpression } from "./extractTsExpression";
-
-export interface ITsExtractedStatement {
-  scope: TsScope;
-  kind: TsStatementKind;
-  type: string;
-  [key: string]: any;
-}
 
 /**
  * Extracts useful information from an "statement" in a Typescript AST tree

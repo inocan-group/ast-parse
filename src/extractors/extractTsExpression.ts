@@ -1,12 +1,5 @@
 import { keys } from "native-dash";
-import { ITsExpression, TsExpressionKind, TsScope } from "~/@types";
-
-export interface ITsExtractedExpression {
-  scope: TsScope;
-  kind: TsExpressionKind;
-  type: string;
-  [key: string]: any;
-}
+import { ITsExpression, ITsExtractedExpression } from "~/@types";
 
 export function extractTsExpression(exp: ITsExpression): ITsExtractedExpression {
   switch (exp.type) {

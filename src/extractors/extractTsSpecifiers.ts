@@ -1,12 +1,5 @@
-import { ITsSpecifier, TsScope, TsSpecifierKind } from "~/@types";
+import { ITsSpecifier, ITsExtractedSpecifier } from "~/@types";
 import { extractTsExpression } from "./extractTsExpression";
-
-export interface ITsExtractedSpecifier {
-  scope: TsScope;
-  kind: TsSpecifierKind;
-  type: string;
-  [key: string]: any;
-}
 
 export function extractTsSpecifiers(sp: ITsSpecifier): ITsExtractedSpecifier {
   switch (sp.type) {

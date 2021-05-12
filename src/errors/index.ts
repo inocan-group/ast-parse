@@ -2,11 +2,12 @@
 
 // #region autoindexed files
 
-// index last changed at: 5th May, 2021, 02:23 PM ( GMT-7 )
+// index last changed at: 5th May, 2021, 05:46 PM ( GMT-7 )
 // export: named; exclusions: index, private.
-// files: ParseError.
+// files: DataError, ParseError.
 
 // local file exports
+export * from "./DataError";
 export * from "./ParseError";
 
 // Note:

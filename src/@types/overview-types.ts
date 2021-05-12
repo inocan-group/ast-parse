@@ -1,42 +1,56 @@
 export type ITsNamedExportFunction = {
   kind: "function";
   params: [{ name: string; type: string }];
-  returns: { type: string; value: string };
+  returns: { type?: string; value?: string };
 };
 
 export type ITsNamedExportVariable = {
   kind: "variable";
+  type: string;
   value: any;
 };
 
-export type ITsSummaryNamedExport = { name: string; type: string } & (
+export type ITsNamedExportUnknown = {
+  kind: "unknown";
+  name: string;
+  value: any;
+};
+
+export type ITsSummaryExport = { name: string } & (
   | ITsNamedExportFunction
   | ITsNamedExportVariable
+  | ITsNamedExportUnknown
 );
 
-export interface ITsAstOverview {
-  namedExports: ITsSummaryNamedExport[];
-  defaultExport:
-    | false
-    | {
-        name: string;
-        type: string;
-        value: any;
-        params?: {
-          name: string;
-          type: string;
-        }[];
-      };
-  imports: {
-    source: string;
-    symbols: string[];
-  }[];
+export type ITsSummaryImport = {
+  source: string;
+  symbols: string[];
+};
 
-  localFunctions: {
+export type ITsSummaryLocalFunction = {
+  name: string;
+  params: {
     name: string;
-    params: {
-      name: string;
-      type: string;
-    }[];
+    type: string;
   }[];
+  returns: { type?: string; value?: string } | "void";
+};
+
+export type ITsSummaryDefaultExport = false | ITsSummaryExport;
+
+export interface ITsSummaryOverview {
+  namedExports: ITsSummaryExport[];
+  /**
+   * The characteristics of the default export (or `false` if there isn't one)
+   */
+  defaultExport: ITsSummaryDefaultExport;
+  /**
+   * Imports detected in the source
+   */
+  imports: ITsSummaryImport[];
+
+  /**
+   * Functions _defined_ but not _exported_ in the source
+   */
+  localFunctions: ITsSummaryLocalFunction[];
 }
